@@ -14,6 +14,7 @@
 
 .card:hover {
     transform: scale(1.05);
+    border: 1px solid #dfa503;
 }
 
 .card img {
@@ -23,12 +24,13 @@
 }
 
 .card h2 {
-    margin: 15px 0 10px;
-    font-family: 'Roboto',  'sans-serif';
+    font-family: var(--default-font);
 }
 
 .card p {
     margin-bottom: 15px;
+    font-family: var(--heading-font);
+    font-size: 12px;
 }
 
 .card button {
